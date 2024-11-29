@@ -1,0 +1,164 @@
+div{
+    display: inline-block;
+}
+h1{
+    text-align: center;
+}
+.item{
+    width: 70px;
+    height: 70px;
+    background-color: gray;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    border: 3px solid pink;
+}
+.container{
+    background-color: aqua;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 5px;
+}
+.spacebetweenRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.spacebetweenCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.spacearoundRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.spacearoundCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.spaceevenlyRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.spaceevenlyCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.BL{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.alignStart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: start;
+    
+}
+
+.alignCenter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+.alignEnd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: end;
+    
+}
+.alignSpacebetween{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: start;
+    
+}
+.alignSpacearound{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-around;
+    justify-content: start;
+    
+}
+.alignSpaceevenly{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-evenly;
+    justify-content: start;
+}
+.stretch{
+    align-items: stretch;
+    background-color: yellow;
+    border:3px solid red;
+    font-size:1.8rem;
+    text-align:center;
+ }   
+#stretchC{
+    display:flex;
+    flex-direction:column;
+    align-items: stretch;
+}
+#stretchR{
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+
+}
+.FlexFlow{
+    display:flex;
+    flex-flow:row nowrap;
+
+}
+.order{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.alignSelf{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items: stretch;
+}
+.FlexBasis{
+    display:flex;
+    flex-direction:column;
+}
+.flexGrow{
+    display:flex;
+    flex-direction: row;
+
+}
+.flexShrink{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+
